@@ -8,6 +8,6 @@ Los temas que se encuentran son para el diseño de intercambiadores de calor usa
 $$
 \begin{align}
 \pi * r^{2} = A \label{eq1} \tag{1} \\
-A = 2 * 3 label{eq2} \tag{2}
 \end{align}
 $$
+$A = a \cdot b \label{eq2} \tag{2}$
