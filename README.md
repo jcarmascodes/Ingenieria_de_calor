@@ -4,3 +4,5 @@ Este repositorio alberga códigos de uso educativo para la carrera de Lic. en In
 Los temas que se encuentran son para el diseño de intercambiadores de calor usando:
 * El método del Kern
 * El método del Belldelawere
+
+$\pi * r^{2} = A$
