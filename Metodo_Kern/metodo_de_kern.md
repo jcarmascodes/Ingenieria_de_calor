@@ -129,6 +129,7 @@ $$
 Cuando se está en la región turbulenta, donde se tienen las siguientes ecuaciones:
 
 Fluido que se entría:
+
 $$
 N_{u} = 0.023 R_{e}^{0.8} P_{r}^{0.3} \tag{23}
 $$
