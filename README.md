@@ -11,4 +11,6 @@ $$
 \end{align}
 $$
 Espacio
-$A = a \cdot b \label{eq2} \tag{2}$
+$$
+A = a \cdot b \label{eq2} \tag{2}
+$$
