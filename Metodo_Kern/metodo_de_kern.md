@@ -1,5 +1,7 @@
 # Método de Kern
 
+El método de Kern fue propuesto en 1950, es el primer método de cálculo de un intercambiador sistematizado.
+
 ## Formulas
 
 ### **Calor transferido**
