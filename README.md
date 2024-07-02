@@ -5,4 +5,14 @@ Los temas que se encuentran son para el diseño de intercambiadores de calor usa
 * El método del Kern
 * El método del Belldelawere
 
-$\pi * r^{2} = A$
+$$
+\begin{align}
+\pi * r^{2} = A
+\end{align}
+$$
+
+$$
+\beging{align}
+\pi * D = A
+\end{align}
+$$
