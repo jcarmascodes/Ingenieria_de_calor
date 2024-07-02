@@ -7,8 +7,8 @@ Los temas que se encuentran son para el diseño de intercambiadores de calor usa
 
 $$
 \begin{align}
-\pi * r^{2} = A
-\
+\pi * r^{2} = A \label
+\\
 \pi * D = A
 \end{align}
 $$
