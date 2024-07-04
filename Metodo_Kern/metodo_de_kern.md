@@ -8,6 +8,8 @@ El intercambiador de tubos y coraza es el equipo más común en la industrisa de
 
 El método de Kern fue propuesto en 1950, es el primer método de cálculo de un intercambiador sistematizado.
 
+[Ejemplo](../Ejemplo.ipynb)
+
 ## Formulas
 
 ### **Calor transferido**
