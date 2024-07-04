@@ -1,4 +1,10 @@
-# Método de Kern
+# Fundamento Teórico
+
+Los equipos de transferencia de calor son equipos destinados a transferir calor de un fluido a otro, de forma controlada separados por una pared.
+
+El intercambiador de tubos y coraza es el equipo más común en la industrisa de procesos, se usan para servicios en los que se requieren grandes superficies de intercabio. Estos intercambiadores de calor consisten en una cantidad de tubos empacado en una coraza.
+
+![](https://static.wixstatic.com/media/e88453_b1f5db218ff7407abaf7ec9f62d7a709~mv2.png/v1/fill/w_640,h_284,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e88453_b1f5db218ff7407abaf7ec9f62d7a709~mv2.png)
 
 El método de Kern fue propuesto en 1950, es el primer método de cálculo de un intercambiador sistematizado.
 

@@ -6,3 +6,8 @@ Los temas son:
 * Diseño de intercambiadores de tubos y corazas
     * El método de Kern
     * El método de Bell Delawere
+
+| Índice |
+|----|:------------------------------_|
+| 01| | [El método de Kern](./metodo_kern.md)
+| 02| | [El método de Bell Delawere](./metodo_Bell_Delawere.md)
