@@ -1,6 +1,8 @@
 # Ingenieria_de_calor
-Este repositorio alberga códigos de uso educativo para la carrera de Lic. en Ing. Química Sustentable, donde se incluye el fundamento teórico y ejemplos para el tema de Ingeniería de Calor.
+Este repositorio alberga códigos de uso educativo para la carrera de Lic. en Ing. Química Sustentable, en el tema de Ingeniería de Calor, donde se incluye el fundamento teórico y ejemplos:
 
-Los temas que se encuentran son para el diseño de intercambiadores de calor usando:
-* El método del Kern
-* El método del Bell Delawere
+Los temas son:
+
+* Diseño de intercambiadores de tubos y corazas
+    * El método de Kern
+    * El método de Bell Delawere
