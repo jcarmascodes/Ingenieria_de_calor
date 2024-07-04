@@ -9,5 +9,5 @@ Los temas son:
 
 |Índice | |
 |----|------------------------------|
-| 01 | [El método de Kern](./metodo_de_kern.md) |
-| 02 | [El método de Bell Delawere](./metodo_Bell_Delawere.md) |
+| 01 | [El método de Kern](./Metodo_Kern/metodo_de_kern.md) |
+| 02 | [El método de Bell Delawere](./Metodo_Bell_Delawere/metodo_Bell_Delawere.md) |
