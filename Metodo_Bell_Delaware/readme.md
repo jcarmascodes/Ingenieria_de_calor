@@ -1,4 +1,4 @@
-# Metodo de Bell Delawere
+# Metodo de Bell Delaware
 
 Paso 1. Determinar las temperaturas de entrada y salida del lado de la coraza y de los tubos.
 

@@ -3,11 +3,16 @@ Este repositorio alberga códigos de uso educativo para la carrera de Lic. en In
 
 Los temas son:
 
+* Transferencia de calor
+
 * Diseño de intercambiadores de tubos y corazas
     * El método de Kern
-    * El método de Bell Delawere
+    * El método de Bell Delaware
+
+* Rehervidores
+* Condensadores
 
 |Índice | |
 |----|------------------------------|
-| 01 | [El método de Kern](./Metodo_Kern/metodo_de_kern.md) |
-| 02 | [El método de Bell Delawere](./Metodo_Bell_Delawere/metodo_Bell_Delawere.md) |
+| 01 | [El método de Kern](./Metodo_Kern/readme.md) |
+| 02 | [El método de Bell Delaware](./Metodo_Bell_Delaware/readme.md) |
