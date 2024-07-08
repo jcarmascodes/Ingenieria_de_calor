@@ -14,7 +14,7 @@ $\Delta T_{1} = T_{1} - t_{2}$
 
 $\Delta T_{2} = T_{2} - t_{1}$
 
-![DMTL](../imagen/DTML.png)
+![DMTL](../imagen/DTML.PNG)
 
 Paso 3. Calcular R y S:
 
