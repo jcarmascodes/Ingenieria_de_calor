@@ -1,5 +1,17 @@
 # Método de Bell Delaware
 
+El método Delaware para calcular el coeficiente de transferencia de calor y la caída de presión del lado de la coraza se debe su nombre a un amplio estudio patrocinado por la industria sobre intercambiadores de calor de tubos y coraza realizado en la Universidad de Delaware, publicado en 1963. El método Bell-Delaware, en honor a uno de los principales investigadores del proyecto, Kenneth J. Bell. 
+
+El método Delaware utiliza correlaciones empíricas para el coeficiente de transferencia de calor y el factor de fricción en flujo perpendicular a bancos de tubos; se denominan correlaciones ideales de bancos de tubos. En los intercambiadores de calor con deflectores, este tipo de flujo se aproxima en las regiones entre las puntas de los deflectores. Sin embargo, en las ventanas de los deflectores, el flujo es parcialmente paralelo a los tubos.
+
+Además, sólo una parte del fluido del lado de la coraza sigue la trayectoria de flujo principal a través del intercambiador debido a la presencia de fugas y corrientes de derivación en la coraza. Estas desviaciones de las condiciones ideales del banco de tubos se tienen en cuenta mediante un conjunto de factores de corrección empíricos para la transferencia de calor y la caída de presión. 
+
+![Fugas](../imagen/Fugas.PNG)
+
+Los factores de corrección para los flujos de fuga y derivación se correlacionan en términos de áreas de flujo para los flujos de fuga derivación y flujo transversal principal.
+
+*Descripción del método*
+
 Paso 1. Determinar las temperaturas de entrada y salida del lado de la coraza y de los tubos.
 
 Paso 2. Calcular la diferencia de temperaturas media logarítmica (DMTL):
@@ -106,7 +118,7 @@ Paso 14. De acuerdo al número total de tubos y al tipo de arreglo, determinar e
 
 ## Cálculo del coeficiente de película del lado de la coraza.
 
-![Corrección por fugas](./Metodo_Bell_Delaware/correccion_fugas.png)
+![Corrección por fugas](..imagen/correccion_fugas.png)
 
 Paso 15. Determinar el número de hileras cruzadas en una sección transversal (entre los extremos de las mamparas), NC:
 
@@ -349,6 +361,8 @@ Si $RES < 100$:
 $$
 \Delta PWI = \frac{0.75\times 10^{-6} \cdot \mu S \cdot WS}{SM \cdot SW \cdot SGS \cdot 62.37}[\frac{NCW}{PT-Do}+\frac{LS}{DW^{2}}] + \frac{WS^{2} \cdot 0.345\times 10^{-6}}{SM \cdot SW \cdot SGS \cdot 62.37} \tag{42}
 $$
+
+![ventana](../imagen/ventana.PNG)
 
 Paso 44. Determinar el factor de corrección por el flujo que no pasa el haz de tubos, RB de la fig. 13 del apéndice como una función de FSBP y NSS/NC. Este factor es diferente en magnitud a JB, pero similar en forma. El valor de RB va de 0.5 a 0.8, dependiendo del tipo de construcción y el número de gajos o fajas de sello.
 
