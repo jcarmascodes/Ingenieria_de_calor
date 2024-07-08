@@ -1,8 +1,8 @@
-# Metodo de Bell Delaware
+# Método de Bell Delaware
 
 Paso 1. Determinar las temperaturas de entrada y salida del lado de la coraza y de los tubos.
 
-Paso 2. Calcular la diferencia de temperaturas mediaa logaritmica (DMTL):
+Paso 2. Calcular la diferencia de temperaturas media logarítmica (DMTL):
 
 $$
 DMTL = \frac{\Delta T_{1} - \Delta T_{2}}{Ln\frac{\Delta T_{1}}{\Delta T_{2}}} \tag{1}
@@ -13,6 +13,8 @@ Sindo
 $\Delta T_{1} = T_{1} - t_{2}$
 
 $\Delta T_{2} = T_{2} - t_{1}$
+
+![DMTL](../imagen/DTML.png)
 
 Paso 3. Calcular R y S:
 
@@ -26,7 +28,7 @@ $$
 
 Para determinar el número de corazas requeridas de tal manera que el factor de corrección de temperatura no sea menor de 0.8.
 
-Paso 4. Determinar la diferencia de temperatura media logaritmica corregida (DTML)_{c}:
+Paso 4. Determinar la diferencia de temperatura media logarítmica corregida (DTML)_{c}:
 
 $$
 DTML_{c} = DMTL \cdot FT \tag{4}
@@ -44,16 +46,16 @@ $$
 
 Paso 6. A la temperatura de bulbo de lado de los tubos, determine las propiedades del fluido:
 
-+ Gravedad espeficica (SGT)
++ Gravedad específica (SGT)
 + Viscosidad (\mu T), cp
-+ Capacidad calorifica (CT), $\frac{BTU}{lb°F}$
++ Capacidad calorífica (CT), $\frac{BTU}{lb°F}$
 + Conductividad térmica (kT), $\frac{BTU}{hr-ft-°F}$
 
 Paso 7. A la temperatura de bulbo del lado de la coraza, determine las propiedades del fluido:
 
-+ Gravedad espeficica (SGS)
++ Gravedad específica (SGS)
 + Viscosidad (\mu S), cp
-+ Capacidad calorifica (CS), $\frac{BTU}{lb°F}$
++ Capacidad calorífica (CS), $\frac{BTU}{lb°F}$
 + Conductividad térmica (kS), $\frac{BTU}{hr-ft-°F}$
 
 Paso 8. Determinar los fluidos másicos del lado de la coraza, WS (lb/hr) y del lado de los tubos, WT (lb/hr).
@@ -61,18 +63,18 @@ Paso 8. Determinar los fluidos másicos del lado de la coraza, WS (lb/hr) y del 
 Paso 9. Determinar la carga de calor Q, usando los datos del lado de la coraza o del lado de los tubos.
 
 a. Asumir un valor el coeficiente total de diseño (UD).
-b. Calcular el area total (AT):
+b. Calcular el área total (AT):
 
 $$
 AT = \frac{Q}{[UD(DTML)_{c}]} \tag{7}
 $$
 
-Paso 10. Elejir los siguientes parametros:
+Paso 10. Elegir los siguientes parámetros:
 
 + Número de pasos por el lado de los tubos (NPT).
 + Longitud de los tubos, (L) ft.
-+ Diametro interior de los tubos, (di) in.
-+ Diametro exterior de los tubos, (do) in.
++ Diámetro interior de los tubos, (di) in.
++ Diámetro exterior de los tubos, (do) in.
 + Tipo de arreglo triangular, cuadrado o rotado.
 + Pitch de los tubos, (PT) in.
 + Pitch normal de los tubos, (PN) in.
@@ -86,7 +88,7 @@ $$
 \text{Numero de tubos} = \frac{A}{(\pi(\frac{do}{12})L)} \tag{8}
 $$
 
-Se pude modificar la longitud a la longitud a la longitud efectiva, usando L-0.5, en lugar de L, considerando que en promedio se tiene 0.5 pies por los espesores de los espejos, en los dos extremos del intercambiador del calor.
+Se puede modificar la longitud a la longitud a la longitud efectiva, usando L-0.5, en lugar de L, considerando que en promedio se tiene 0.5 pies por los espesores de los espejos, en los dos extremos del intercambiador del calor.
 
 Paso 12. Determinar el área del intercambiador de calor:
 
@@ -100,9 +102,11 @@ $$
 UD = \frac{Q}{(NCO(DTML)_{c}A)} \tag{10}
 $$
 
-Paso 14. De acuerdo al número total de tubos y al tipo de arreglo, determinar el diametro exterior de haz de tubos. DOTL (in). 
+Paso 14. De acuerdo al número total de tubos y al tipo de arreglo, determinar el diámetro exterior de haz de tubos. DOTL (in). 
 
-## Calculo del coeficiente de pelicula del lado de la coraza.
+## Cálculo del coeficiente de película del lado de la coraza.
+
+![Corrección por fugas](./Metodo_Bell_Delaware/correccion_fugas.png)
 
 Paso 15. Determinar el número de hileras cruzadas en una sección transversal (entre los extremos de las mamparas), NC:
 
@@ -110,13 +114,13 @@ $$
 NC = \frac{D(1 - (\frac{2LC}{D}))}{PP} \tag{11}
 $$
 
-Paso 16. Calcular la fracción de tubos totales en la sección de flujo transversasl:
+Paso 16. Calcular la fracción de tubos totales en la sección de flujo transversal:
 
 $$
 FC = \frac{1}{\pi}(\pi 2(\frac{D-(2LC)}{DOTL}))Sen(Cos^{-1} \frac{D-(2LC)}{DOTL})-2Cos^{1}(\frac{D-(2LC)}{DOTL}) \tag{12}
 $$
 
-Donde todos los ángulos estan en radianes.
+Donde todos los ángulos están en radianes.
 
 Paso 17. Estimar el número efectivo de hileras en flujo transversal en cada ventana, (NCW):
 
@@ -124,17 +128,17 @@ $$
 NCW = \frac{(0.8LC)}{PP} \tag{13}
 $$
 
-Esta ecuación asume que el fluido en el lado de la coraza cruzada, en promedio, la mitad de las hileras de tubos en la ventana (cada una de esas hileras dos veces) y que las hileras de extienden 0.8 de la distencia del extremo de la mampara al diametro interior de la coraza.
+Esta ecuación asume que el fluido en el lado de la coraza cruzada, en promedio, la mitad de las hileras de tubos en la ventana (cada una de esas hileras dos veces) y que las hileras se extienden 0.8 de la distancia del extremo de la mampara al diámetro interior de la coraza.
 
-Paso 18. Numero de mamparas, (NB)
+Paso 18. Número de mamparas, (NB)
 
 $$
 NB = \frac{12L-LSI-LSO}{LS} + 1 \tag{14}
 $$
 
-Está ecuación considera que el espaciamiento de entrada y/o salida entre mamparas puede ser diferente del espaciamiento entre mamparas centrales.
+Esta ecuación considera que el espaciamiento de entrada y/o salida entre mamparas puede ser diferente del espaciamiento entre mamparas centrales.
 
-Paso 19. Area de flujo transversal en/o cerca de la linea de centros para una sección de flujo transversal, SM:
+Paso 19. Área de flujo transversal en/o cerca de la línea de centros para una sección de flujo transversal, SM:
 
 Para arreglo cuadrado y cuadrado rotado:
     
@@ -177,7 +181,7 @@ $$
 SSB = \frac{\pi \cdot D \cdot DSB (1 - \theta/2 \pi)}{2} \tag{20}
 $$
 
-El valor de DSB seobtiene de la tabla 3 del apéndice. Se deberán considerar tolerancia para construcciones ajustadas u holgadas. En este aspecto, puede notarse que es conservador estimar un claro más grande cuando se calcula la transferencia de calor, en el sentido de calcular un coeficiente de transferencia de calor más bajo del lado decorza. Sin embargo, cuando calculamos la caída de presión se obtiene un estimado conservador (caída de presión más alta) si uno asume claros pequeños.
+El valor de DSB se obtiene de la tabla 3 del apéndice. Se deberán considerar tolerancia para construcciones ajustadas u holgadas. En este aspecto, puede notarse que es conservador estimar un claro más grande cuando se calcula la transferencia de calor, en el sentido de calcular un coeficiente de transferencia de calor más bajo del lado decorza. Sin embargo, cuando calculamos la caída de presión se obtiene un estimado conservador (caída de presión más alta) si uno asume claros pequeños.
 
 Paso 24. Calcular el área de flujo a través de la ventana, SW. Esta área es obtenida como la diferencia entre el área total de la ventana, SWG y el área de la ventana ocupada por los tubos, SWT:
 
@@ -203,13 +207,13 @@ $$
 DW = \frac{4SW}{\frac{\pi}{2} \cdot NT \cdot (1 - FC) \cdot DO + D \cdot \theta} \tag{24}
 $$
 
-Paso 26. Calcular el número de Reynolds del lado de la coraza, RES. El número de Reynolds de lado de la coraza está deifinido como:
+Paso 26. Calcular el número de Reynolds del lado de la coraza, RES. El número de Reynolds de lado de la coraza está definido como:
 
 $$
 RES = \frac{12DO \cdot WS}{2.42 \rho S \cdot SM} \tag{25}
 $$
 
-Paso 27. Estimar el factor de correción por efectos de fuga en la mampara, JI, de la fig. 3 del apéndice, para arreglo de tubos dado, usando el valor calculado de RES
+Paso 27. Estimar el factor de corrección por efectos de fuga en la mampara, JI, de la fig. 3 del apéndice, para arreglo de tubos dado, usando el valor calculado de RES
 
 Paso 28. Calcular el coeficiente de transferencia de calor para un haz de tubos ideal h0:
 
@@ -225,8 +229,7 @@ $$
 
 Este valor es igual a 1.0 para intercambiadores de calor los cuales no hay tubos en la ventana, se incrementa a un valor de 1.15 para un diseño en el cual las ventanas son relativamente pequeñas y la velocidad en la ventana es muy alta, disminuye hasta un valor cerca de 0.52 para cortes de mamparas muy grandes. Un valor típico para un intercambiador de calor bien diseñado es de 1.0.
 
-Paso 30. Calcular el factor de correción por efectos de fugas en la mampara, JL, usadno la fig.5
-del ápendice o la ecuación siguiente:
+Paso 30. Calcular el factor de corrección por efectos de fugas en la mampara, JL, usando la fig.5 del apéndice o la ecuación siguiente:
 
 $$
 JL = 1 - (1 + \frac{SSB}{STB + SSB} \cdot 0.45 (\frac{STB + SSB}{SM} + 0.1[1 - e^{-30(\frac{STB}{SSB})}])) \tag{28}
@@ -234,22 +237,20 @@ $$
 
 Un valor típico de JL se encuentra en el rango de 0.7 a 0.8. JL castiga más las fugas coraza-mampara que las fugas tubo-mampara. La correlación de JL penaliza el diseño de mamparas que se encuentran muy cercanas, que lleva a una fracción excesiva de flujo de fugas, comparado con el flujo transversal.
 
-Paso 31. Estimar el valor del factor de correción por el flujo que no pasa el haz de tubos, JB. Este
-factor es determinado en la fig.5 del ápendice como una función de FSBP y de la relación NSS/NC (relación de número de fajas de sello por lado al número de hileras cruzadas en
+Paso 31. Estimar el valor del factor de corrección por el flujo que no pasa el haz de tubos, JB. Este factor es determinado en la fig.5 del apéndice como una función de FSBP y de la relación NSS/NC (relación de número de fajas de sello por lado al número de hileras cruzadas en
 una sección transversal de flujo) o de la siguiente ecuación:
 
 $$
 JB = e^{[-\alpha \cdot FSBP(1 - (\frac{2NSS}{NC})^{\frac{1}{3}})]} \tag{29}
 $$
 
-a = 1,5 paraa flujo laminar y a = 1,35 para flujo en transición o turbulento. JB es el factor de correción por el flujo que no pasa a través del haz de tubos (corriente C). JB toma en cuenta las diferencias en construcción. Para diferencias relativamente pequeñas entre el diámetro exterior del haz de tubos y el diámetro interior de la coraza, JB = 0.9, y para claros más grandes como los cabezales flotantes removibles JB = 0,7. JB también considera el mejoramiento por las fajas de sello.
+a = 1,5 para flujo laminar y a = 1,35 para flujo en transición o turbulento. JB es el factor de corrección por el flujo que no pasa a través del haz de tubos (corriente C). JB toma en cuenta las diferencias en construcción. Para diferencias relativamente pequeñas entre el diámetro exterior del haz de tubos y el diámetro interior de la coraza, JB = 0.9, y para claros más grandes como los cabezales flotantes removibles JB = 0,7. JB también considera el mejoramiento por las fajas de sello.
 
-Paso 32. Determinar el factor de correción por gradiente adverso de temperatura a números bajos
-de Reynolds, JR. Este factor es igual a 1.0 sí RES es igual o más grande que 100.
+Paso 32. Determinar el factor de corrección por gradiente adverso de temperatura a números bajos de Reynolds, JR. Este factor es igual a 1.0 si RES es igual o más grande que 100.
 
-a) si RES < 100, determinar JR∗ de la fig.7 del ápendice, conociendo $NB$ y $NC + NCW$
+a) si RES < 100, determinar JR∗ de la fig.7 del apéndice, conociendo $NB$ y $NC + NCW$
 b) Si RES ≤ 20, JR = JR∗
-c) Si 20 < RES < 100, determinar JR de la fig.8 del ápendice conociendo JR∗ y RES.
+c) Si 20 < RES < 100, determinar JR de la fig.8 del apéndice conociendo JR∗ y RES.
 
 Paso 33. Calcular el factor de corrección por espaciamiento desigual de mamparas a la entrada o
 salida, JS:
@@ -265,7 +266,7 @@ n = 1/3 para flujo laminar (RES < 100)
 El factor de corrección JS estará usualmente entre 0.85 y 1. Este factor puede ser evaluado
 de las figuras 9 y 10.
 
-Paso 34. Calcular el coeficiente de pelicula del lado de la coraza, usando la ecuación:
+Paso 34. Calcular el coeficiente de película del lado de la coraza, usando la ecuación:
 
 $$
 HO = hO \cdot JC \cdot JL \cdot JB \cdot JR \cdot JS \tag{31}
@@ -305,7 +306,7 @@ $$
 HIO = (\frac{150}{DI^{0.2}})[1 + (\frac{0.011(t_{1}+t_{2})}{2})] \cdot VT^{0.8} (\frac{DI}{DO}) \tag{36}
 $$
 
-+ Para otros fluido:
++ Para otros fluidos:
 
 $$
 HIO = 0.027 RET^{0.796} (\frac{2.42 \cdot CT \cdot \mu T}{KT})^{\frac{1}{3}} (\frac{12KT}{DI}) (\frc{DI}{DO}) \tag{37}
@@ -349,11 +350,11 @@ $$
 \Delta PWI = \frac{0.75\times 10^{-6} \cdot \mu S \cdot WS}{SM \cdot SW \cdot SGS \cdot 62.37}[\frac{NCW}{PT-Do}+\frac{LS}{DW^{2}}] + \frac{WS^{2} \cdot 0.345\times 10^{-6}}{SM \cdot SW \cdot SGS \cdot 62.37} \tag{42}
 $$
 
-Paso 44. Determinar el factor de correción por el flujo que no pasa el haz de tubos, RB de la fig. 13 del apéndice como una función de FSBP y NSS/NC. Este factor es diferente en magnitud a JB, pero similar en forma. El valor de RB va de 0.5 a 0.8, dependiendo del tipo de construcción y el número de gajos o fajas de sello.
+Paso 44. Determinar el factor de corrección por el flujo que no pasa el haz de tubos, RB de la fig. 13 del apéndice como una función de FSBP y NSS/NC. Este factor es diferente en magnitud a JB, pero similar en forma. El valor de RB va de 0.5 a 0.8, dependiendo del tipo de construcción y el número de gajos o fajas de sello.
 
 Paso 45. Determinar el factor de corrección por efecto de fugas en la mampara para la caída de presión, RL. Este valor se obtiene de la fig. 14 del apéndice.
 
-Paso 46. Calcular el factor de correción por espaciamiento desigual entre mamparas, RS. Las equaciones
+Paso 46. Calcular el factor de corrección por espaciamiento desigual entre mamparas, RS. Las ecuaciones
 
 $$
 RS = \frac{1}{2} ((\frac{LSI}{LS})^{-n} + (\frac{LSD}{LS})) \tag{43}
@@ -369,6 +370,8 @@ $$
 \Delta PS = [(NB-1)\Delta PBI \cdot RB + NB \cdot \Delta PWI]\cdot RL + [2 \Delta PBI \cdot RB (1 + \frac{NCW}{NC}) RS] \tag{44}
 $$
 
+## **Cálculo de la caída de presión del lado de tubo**
+
 Paso 48. Calcular la caída de presión para tramos rectos:
 
 $$
@@ -381,13 +384,16 @@ $$
 \Delta PR_{1} = \frac{4 GT^{2.0015} \cdot 1.34248 \times 10^{-13} \cdot NPT}{SGT} \tag{46}
 $$
 
+
 Paso 50. Calcular la caída de presión total del lado de los tubos, $\Delta PT$:
 
 $$
 \Delta PT = \Delta PTT + \Delta PR \tag{47}
 $$
 
-Paso 51. Calcular la caída el coeficiente global de transferencia de calor limpio, UC:
+## **Cálculo del área real**
+
+Paso 51. Calcular la caída del coeficiente global de transferencia de calor limpio, UC:
 
 $$
 UC = \frac{HO \cdot HIO}{HO + HIO} \tag{48}
