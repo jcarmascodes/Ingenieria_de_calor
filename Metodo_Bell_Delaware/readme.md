@@ -40,6 +40,8 @@ $$
 
 Para determinar el número de corazas requeridas de tal manera que el factor de corrección de temperatura no sea menor de 0.8.
 
+![Correccion-factor](../imagen/P.PNG)
+
 Paso 4. Determinar la diferencia de temperatura media logarítmica corregida (DTML)_{c}:
 
 $$
@@ -321,7 +323,7 @@ $$
 + Para otros fluidos:
 
 $$
-HIO = 0.027 RET^{0.796} (\frac{2.42 \cdot CT \cdot \mu T}{KT})^{\frac{1}{3}} (\frac{12KT}{DI}) (\frc{DI}{DO}) \tag{37}
+HIO = 0.027 RET^{0.796} (\frac{2.42 \cdot CT \cdot \mu T}{KT})^{\frac{1}{3}} (\frac{12KT}{DI}) (\frac{DI}{DO}) \tag{37}
 $$
 
 Paso 40. Estimar la temperatura de pared, tW:
