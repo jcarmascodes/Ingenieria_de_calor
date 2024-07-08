@@ -198,7 +198,7 @@ $$
 El área ocupa por los tubos, SWT puede ser calculada de:
 
 $$
-SWT = \frac{NT}{S} (1 - FC) \cdot \pi \cdto DO^{2} \tag{23}
+SWT = \frac{NT}{S} (1 - FC) \cdot \pi \cdot DO^{2} \tag{23}
 $$
 
 Paso 25. Calcular el diámetro equivalente de la ventana, DW (requerido solo si existe flujo laminar, definido como RES ≤ 100), calculado como:
