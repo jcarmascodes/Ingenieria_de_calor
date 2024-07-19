@@ -3,34 +3,34 @@
 ### **Calor transferido**
 
 Ecuación de diseño:
-\begin{equation}
+$$
 Q = U_0 A_0 (\Delta T_{lm}) \tag{1}
-\end{equation}
+$$
 
 Del balance de energía:
-\begin{equation}
+$$
 Q_{perdido} = Q_{ganado} \tag{2}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 Q = MC_p(\Delta T) \tag{3}
-\end{equation}
+$$
 
 Para calcular las propiedades de los fluidos se usa su temperatura media $T_m$
 
-\begin{equation}
+$$
 T_m = \frac{T_1+T_2}{2} \tag{3}
-\end{equation}
+$$
 
 <h4> Del balance de energía se cuando no existe cambido de estado </h4>
 
-\begin{equation}
+$$
 Q_{ganado} = M_{x}C_{px}(T_1 - T_2) \tag{4}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 Q_{perdido} = M_{vapor}C_{px}(H_{V} - H_{L}) \tag{5}
-\end{equation}
+$$
 
 Donde:
 
@@ -40,27 +40,27 @@ $H_{L}$ = Entalpía del condensado
 
 ### **Cálculo de diferencia de temperatura logarítmica media** 
 
-\begin{equation}
+$$
 \Delta T_{lm} = \frac{\Delta T_1 - \Delta T_2}{ln \frac{\Delta T_1}{\Delta T_2}} \tag{6}
-\end{equation}
+$$
 
 Donde:
 
-\begin{equation}
+$$
 \Delta T_1 = T_1 - t_2
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \Delta T_2 = T_2 - t_1
-\end{equation}
+$$
 
 ### **Cálculo del área total de transfrencia de calor**
 
 Se debe calcular el área total de transferencia de calor, puesto que no es posible obtener un valor exacto debido a que no se puede calcular el coeficiente global de energía $U_0$. De la ecuación de diseño:
 
-\begin{equation}
+$$
 A_0 = \frac{Q}{U_0 (\Delta T_{lm})F} \tag{7}
-\end{equation}
+$$
 
 ### **Cálculo del número de tubos**
 
@@ -68,13 +68,13 @@ Para determinar el número de tubos para cumplir el área total, se debe propone
 
 Entonces la velocidad propuesta es: $1 \frac{m}{s}$
 
-\begin{equation}
+$$
 \text{Área de flujo fluido} = \frac{\text{flujo volumétrico}}{\text{Velocidad del fluido}} \tag{8}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \text{No. tubos} = \frac{\text{Área de flujo (fluido)}}{\text{Área de flujo (tubería)}} \tag{9}
-\end{equation}
+$$
 
 Para conocer el área de flujo de tubería es necesario elegir las dimensiones de la tubería, donde:
 
@@ -95,19 +95,19 @@ Ya que se conoce el No. de tubos, es necesario determinar la longitud:
 
 Diámetro interno:
 
-\begin{equation}
+$$
 A_0 = A_{se}(\text{No. tubos})L \tag{13}
-\end{equation}
+$$
 
 ### **Cálculo del número de pasos:**
 
-\begin{equation}
+$$
 \text{No. pasos} = \frac{L}{\text{Longitud deseada del intercambiador}} \tag{14}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \text{No. total de tubos} = ({\text{No.tubos}})({\text{No.pasos}}) \tag{15}
-\end{equation}
+$$
 
 ### **Calculo del coeficiente global de transferencia de energia**
 
@@ -115,39 +115,39 @@ A_0 = A_{se}(\text{No. tubos})L \tag{13}
 
 Área de flujo por paso:
 
-\begin{equation}
+$$
 \text{Af por paso} = D_i^2 \frac{\pi}{4}{\text{No. tubos por paso}} \tag{16}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \text{No. tubos por paso} = \frac{\text{No. total de tubos}}{\text{No. paso}} \tag{17}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 V_{real} = \frac{\text{flujo volumétrico}}{\text{Af por paso}} \tag{18}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 R_e = \frac{D_i V \rho}{\mu} \tag{19}
-\end{equation}
+$$
 
 Cuando se está en la región turbulenta, donde se tienen las siguientes ecuaciones:
 
 Número de Prandtl
-\begin{equation}
+$$
 P_r = \frac{C_p \mu}{k} \tag{20}
-\end{equation}
+$$
 
 $k$ = conductividad térmica del fluido
 
-\begin{equation}
+$$
 N_u = 0.023 R_e^{0.8} P_r^{0.4} \tag{21}
-\end{equation}
+$$
 
 La relación entre $N_u$ y el coeficiente de película:
-\begin{equation}
+$$
 N_u = \frac{h_iD_i}{k} \tag{22}
-\end{equation}
+$$
 
 Reordenando para el coeficiente de película:
 
@@ -197,9 +197,9 @@ $$
 
 Si se desea calcular el coeficiente de película externo en un haz de tubos, es necesario tomar en cuenta el número de tubos que se encuentran uno encima de otro. La ecuación utilizada para este fin es similar a la usada en condensación sobre tubos horizontales, la diferencia es que ahora se toma en cuenta el número de tubos que se encuentran encima o por debajo.
 
-\begin{equation}
+$$
 \frac{h_o D_o}{k} = 0.73(\frac{D_o^2 \rho^2 g \lambda}{k \mu \Delta T N})^\frac{1}{4} \tag{26}
-\end{equation}
+$$
 
 Donde:
 
@@ -217,9 +217,9 @@ $\Delta T = \frac{T_v - T_s}{2} \tag{28}$
 
 ### **Obtención del coeficiente global de transferencia de calor**
 
-\begin{equation}
+$$
 U_o = \frac{1}{\frac{D_o}{D_i h_i} + \frac{D_o}{D_ihd_i} + \frac{xD_o}{k_w D_w} + \frac{1}{h d_o} + \frac{1}{h_o}} = \left[ \frac{kcal}{m^2h°C} \right] \tag{29}
-\end{equation}
+$$
 
 *Donde:*
 
@@ -246,19 +246,19 @@ Resistencia al flujo de calor que existe en el fluido, desde la zona de turbulen
 ### **Caída de presión**
 
 #### **Caída de presión en los tubos**
-\begin{equation}
+$$
 \frac{\Delta P_L}{\rho} = F_D \frac{V_{real}^2LN_{pasos}}{2gD_i} = [m] \tag{35}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \frac{\Delta P_r}{\rho} = 4N_{pasos} \frac{V_{real}^2}{2g} = [m] \tag{36}
-\end{equation}
+$$
 
-\begin{equation}
+$$
 \Delta P_T = \Delta P_L + \Delta P_r = \left[ \frac{kg}{cm^2} \right] \tag{37}
-\end{equation}
+$$
 
 #### **Caída de presión en la coraza**
-\begin{equation}
+$$
 \frac{\Delta P_s}{\rho} = F_s \frac{G_s^2D_s(n+1)}{2gD_e \rho ^2} = [m] \tag{38}
-\end{equation}
+$$
