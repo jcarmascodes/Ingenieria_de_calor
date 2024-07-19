@@ -3,11 +3,13 @@
 ### **Calor transferido**
 
 Ecuación de diseño:
+
 $$
 Q = U_0 A_0 (\Delta T_{lm}) \tag{1}
 $$
 
 Del balance de energía:
+
 $$
 Q_{perdido} = Q_{ganado} \tag{2}
 $$
