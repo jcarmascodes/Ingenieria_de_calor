@@ -17,4 +17,4 @@ Los temas son:
 | 01 | [El método de Kern](./Metodo_Kern/readme.md) |
 | 02 | [El método de Bell Delaware](./Metodo_Bell_Delaware/readme.md) |
 | 03 | [Condensadores](./Condensadores/readme.md)
-| 04 | [Rehervidores(Termosifón)](./Rehervidores/Termosifón/readm.md) |
+| 04 | [Rehervidores(Termosifón)](./Rehervidores/Termosifón/readme.md) |
