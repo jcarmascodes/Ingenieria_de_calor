@@ -18,3 +18,7 @@ Los temas son:
 | 02 | [El método de Bell Delaware](./Metodo_Bell_Delaware/readme.md) |
 | 03 | [Condensadores](./Condensadores/readme.md)
 | 04 | [Rehervidores(Termosifón)](./Rehervidores/Termosifón/readme.md) |
+
+Bibliografía
+_1. Bandera, A. V. (2013). Ingeniería del Calor. UNAM._
+_2. Cao, E. (2004). Transferencia de Calor en Ingeniería de Procesos (1st ed.)._
