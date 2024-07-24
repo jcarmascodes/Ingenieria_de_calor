@@ -11,7 +11,7 @@ Debido a que este tipo de rehervidor debe tener una presión hidrostática capaz
 
 Por el rehervidor pasa siempre una masa mayor que la quw se va a vaporizar. La relación entre la masa que circula a través del rehervidor a la masa vaporizada recibe el nombre de relación de circulación. Esta relación es casi siempre superior a cuatro y se fija de manera que sea iguales las perdidas de fricción con la columna hidrostática. 
 
-![Termosifón](../imagen/Termosifón.PNG)
+![Termosifón](../imagen/Termosifón.JPEG)
 
 ## **Método de Kern**
 
