@@ -20,5 +20,5 @@ Los temas son:
 | 04 | [Rehervidores(Termosifón)](./Rehervidores/Termosifón/readme.md) |
 
 Bibliografía
-_1. Bandera, A. V. (2013). Ingeniería del Calor. UNAM._
+_1. Bandera, A. V. (2013). Ingeniería del Calor. UNAM._ \
 _2. Cao, E. (2004). Transferencia de Calor en Ingeniería de Procesos (1st ed.)._
