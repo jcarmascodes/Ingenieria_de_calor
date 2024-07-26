@@ -249,18 +249,24 @@ Resistencia al flujo de calor que existe en el fluido, desde la zona de turbulen
 
 #### **Caída de presión en los tubos**
 $$
-\frac{\Delta P_L}{\rho} = F_D \frac{V_{real}^2LN_{pasos}}{2gD_i} = [m] \tag{35}
+\frac{\Delta P_L}{\rho} = F_D \frac{V_{real}^2LN_{pasos}}{2gD_i}  \tag{35}
 $$
 
 $$
-\frac{\Delta P_r}{\rho} = 4N_{pasos} \frac{V_{real}^2}{2g} = [m] \tag{36}
+\frac{\Delta P_r}{\rho} = 4N_{pasos} \frac{V_{real}^2}{2g}  \tag{36}
 $$
 
 $$
 \Delta P_T = \Delta P_L + \Delta P_r = \left[ \frac{kg}{cm^2} \right] \tag{37}
 $$
 
+**Para condensación en tubos**
+
+$$
+\frac{\Delta P}{\rho} = \frac{F_{D} G_{T}{2} L}{4gDi \rho^{2}} \tag{38}
+$$
+
 #### **Caída de presión en la coraza**
 $$
-\frac{\Delta P_s}{\rho} = F_s \frac{G_s^2D_s(n+1)}{2gD_e \rho ^2} = [m] \tag{38}
+\frac{\Delta P_s}{\rho} = \frac{1}{2} F_s \frac{G_s^2D_s(n+1)}{2gD_e \rho ^2}  \tag{39}
 $$
