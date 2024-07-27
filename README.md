@@ -19,7 +19,12 @@ Los temas son:
 | 03 | [Condensadores](./Condensadores/readme.md)
 | 04 | [Rehervidores(Termosifón)](./Rehervidores/Termosifón/readme.md) |
 
-### ***Bibliografía***
+_**Elaboró**_:
 
-_1. Bandera, A. V. (2013). Ingeniería del Calor. UNAM._ \
-_2. Cao, E. (2004). Transferencia de Calor en Ingeniería de Procesos (1st ed.)._
+**Brandon Jesús Ley Soto**
+
+**Estudiante de Ingeniería Química Sustentable**
+
+**Universidad de Guanajuato**
+
+Nota: Los códigos del método de Kern de este repositorio se adaptaron y a partir de los elaborados por los I.Q.S Emiliano Mauricio Salinas Guerra, Eduardo Felipe Ramírez Zamora y Paula Valeria Gonzales García.
